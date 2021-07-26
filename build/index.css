@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1246px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.button {
+  background: #FFFFFF;
+  border-radius: 6px;
+  color: #5101A6;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 12px;
+  padding: 12px 16px;
+  border: none;
+  text-transform: uppercase;
+}
+.button.button--small {
+  height: 40px;
+}
+.button.button--submit {
+  background-color: #5101A6;
+  color: #ffffff;
+}
+
+.image {
+  width: 100%;
+}
+
+.header {
+  height: 120px;
+  padding: 40px 0;
+  position: absolute;
+  width: 100%;
+}
+.header .logo {
+  width: 190px;
+  height: 40px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  height: 100%;
+}
+
+.banner {
+  background-image: url("./images/Mask Group.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 680px;
+  width: 100%;
+  padding-top: 198px;
+}
+.banner .banner__title {
+  color: #ffffff;
+  margin-bottom: 48px;
+  font-family: "Montserrat";
+  font-size: 48px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+}
+.banner .banner__description {
+  color: #ffffff;
+  margin-bottom: 48px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  width: 50%;
+}
+.banner .banner__buttons {
+  display: flex;
+}
+.banner .banner__buttons .play {
+  height: 48px;
+  width: 48px;
+  background-color: #5101A6;
+  border-radius: 100%;
+  border: none;
+  background-image: url("images/play.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 16px;
+}
+
+.suggestions {
+  padding: 178px 0 96px;
+}
+.suggestions .suggestions__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: #200142;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  height: 72px;
+}
+form .form__item {
+  margin-right: 64px;
+  border-radius: 6px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 24px;
+  color: #ffffff;
+}
+form input {
+  width: 100%;
+}
+
+.footer {
+  background: #0B0B0B;
+}
+.footer .background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 72px 0 112px;
+}
+.footer .background .background__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.footer .background .background__description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 32px;
+  width: 50%;
+}
+.footer .footer-down {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+}
+.footer .footer-down .logo--small {
+  width: 152px;
+  height: 32px;
+}

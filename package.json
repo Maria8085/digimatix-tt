@@ -1,0 +1,33 @@
+{
+  "name": "ecwid-tt",
+  "version": "1.0.0",
+  "description": "test task for ecwid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maria8085/ecwid-tt.git"
+  },
+  "author": "Terekhina Maria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maria8085/ecwid-tt/issues"
+  },
+  "homepage": "https://github.com/Maria8085/ecwid-tt#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.35.2"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
